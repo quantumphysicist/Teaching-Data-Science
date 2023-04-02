@@ -6,7 +6,7 @@
 `Logistic Regression\Logistic_Regression_Tumours_Dummy_Data.ipynb`     
 This notebook uses the Logistic Regression algorithm to predict the type of tumour (malignant or benign) based on the size of the tumour.
 
-The dataset is a dummy dataset created within the notebook. Percentagenoise can be set.  
+The dataset is a dummy dataset created within the notebook. Percentage noise can be set.  
 
 A confusion matrix, an ROC curve and various other metrics are calculated and displayed.
 
