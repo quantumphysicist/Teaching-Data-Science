@@ -1,6 +1,6 @@
 # Teaching-Data-Science
  Materials created for teaching data science.  
-Please also see the [Supplementary Material for my YouTube Videos](https://github.com/quantumphysicist/YouTube-Videos_Data-Analysis-With-Python)
+Please also see the [Supplementary Material for my YouTube Videos](https://github.com/quantumphysicist/YouTube-Videos_Data-Analysis-With-Python).
 
 ## File Descriptions <a name="files"></a>
 
