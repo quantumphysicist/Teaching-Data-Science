@@ -1,12 +1,6 @@
-'''
-Make sure you that when you export participants list from Zoom
-that you check both "Export with meeting data" and "Show unique users".
-
-See here:
-https://www.eduhk.hk/ocio/content/faq-how-retrieve-attendance-list-zoom-meeting
-'''
-
 """
+Author: Dr Renju Mathew
+
 This script processes attendance data by comparing a list of expected participants against a list of actual participants.
 It loads two CSV files: one containing the expected participants with their official and informal names, and the other containing the actual participants.
 The script then replaces the informal names with the official names.
