@@ -2,7 +2,7 @@
 This script processes Zoom attendance data by comparing a list of expected participants against a list of actual participants. It loads two CSV files: one containing the expected participants with their official and informal names, and the other containing the actual participants.
 
 ## Requirements
-Python 3.7 or higher
+Python 3.7 or higher  
 Pandas library
 
 ## Usage
