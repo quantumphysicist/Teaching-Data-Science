@@ -11,8 +11,6 @@ Pandas library
 3. Run the script by executing python `attendance_tracker.py`.
 4. The script will generate a CSV file named `attendance.csv` with the attendance information, including the names of the attendees and their attendance status (Present, Absent, or Unknown).
 
-## Note
-The script assumes that the exported participants list from Zoom is saved as `participants_xxxxxxx.csv` in the same directory as the script file.
+[//]: <> (## NoteThe script assumes that the exported participants list from Zoom is saved as `participants_xxxxxxx.csv` in the same directory as the script file. Disclaimer
+This script is provided as-is without any warranty. The author is not responsible for any damages or losses arising from the use of this script. Please use this script at your own risk.)
 
-Disclaimer
-This script is provided as-is without any warranty. The author is not responsible for any damages or losses arising from the use of this script. Please use this script at your own risk.
