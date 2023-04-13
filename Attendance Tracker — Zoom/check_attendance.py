@@ -54,6 +54,10 @@ attendance_df = (pd.concat([pd.DataFrame(present, columns=['Name']).assign(Statu
 unknown_df = pd.DataFrame(unknown, columns=['Name']).assign(Status='Present (Unrecognized Name)').reset_index(drop=True)
 attendance_df = pd.concat([attendance_df, unknown_df]).reset_index(drop=True)
 attendance_df.index += 1
+
+# Create a column with the name Status Code. 1 for present. 0 for absent.
+attendance_df['Status Code'] = attendance_df['Status'].apply(lambda x: 1 if x == 'Present' else 0)
+
 attendance_df.to_csv('attendance.csv', index=False)
 print(attendance_df)
 print()
