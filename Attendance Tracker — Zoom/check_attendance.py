@@ -18,13 +18,22 @@ expected_participants_dict = dict(zip(expected_participants['Name (Original Name
                                       expected_participants['Official Name']))
 
 
-
-
-
-
-# Load actual participants, skipping the first two rows
+# Load actual participants. Remove unnecessary rows and columns.
 actual_participants_file = glob.glob('participant*.csv')[0]  # Get the name of the csv file that begins with "participant"
-df = pd.read_csv(actual_participants_file, skiprows=2, header=1)[['Name (Original Name)']]
+df = pd.read_csv(actual_participants_file, header=None)
+
+# Find the row where the column header is 'Name (Original Name)'
+locations = df.where(df == 'Name (Original Name)').stack().index.tolist()
+
+# Delete all rows before the first location
+df = df.drop(df.index[:locations[0][0]])
+
+# Delete all columns except the first one
+df = df.drop(df.columns[1:], axis=1)
+
+# Make the first row the header
+df.columns = df.iloc[0]
+df = df.iloc[1:].reset_index(drop=True)
 
 # Replace the informal name with the official name or keep the informal name if not in the dictionary
 actual_participants_list = df['Name (Original Name)'].apply(lambda x: expected_participants_dict.get(x, x)).tolist()
