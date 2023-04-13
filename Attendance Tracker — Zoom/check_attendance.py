@@ -1,6 +1,8 @@
 """
 Author: Dr Renju Mathew
 
+Distribution according to BSD 3-Clause License 
+
 This script processes attendance data by comparing a list of expected participants against a list of actual participants.
 It loads two CSV files: one containing the expected participants with their official and informal names, and the other containing the actual participants.
 The script then replaces the informal names with the official names.
