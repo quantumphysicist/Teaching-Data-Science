@@ -19,3 +19,10 @@ The dataset is a dummy dataset created within the notebook. Percentage noise can
 
 A confusion matrix is displayed.
 
+`Attendance Tracker — Zoom`
+
+This is an Attendance Tracker Python script that processes Zoom attendance data by comparing expected and actual participants. To use it, export the participants list from Zoom and create a CSV file with expected participants' names and run the script to generate an attendance.csv file with attendees' status.
+
+`Attendance Tracker — Teams`
+
+This is an Attendance Tracker Python script that processes MS Teams attendance data by comparing expected and actual participants. To use it, replace the Teams report with your own and create an expected_participants.csv file with the names of expected participants. Running the script generates a CSV file named attendance.csv with attendance information.
