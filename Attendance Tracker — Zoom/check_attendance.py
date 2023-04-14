@@ -58,6 +58,9 @@ attendance_df.index += 1
 # Create a column with the name Status Code. 1 for present. 0 for absent.
 attendance_df['Status Code'] = attendance_df['Status'].apply(lambda x: 1 if x == 'Present' else 0)
 
+# Reorder the columns
+attendance_df = attendance_df[['Name', 'Status Code', 'Status']]
+
 attendance_df.to_csv('attendance.csv', index=False)
 print(attendance_df)
 print()
