@@ -14,7 +14,10 @@ import pandas as pd
 import glob
 
 # Load expected participants
-expected_participants = pd.read_csv('expected_participants.csv')
+
+# Search for file path that starts with "expected_participants"
+file_path = glob.glob('expected_participants*.csv')[0]
+expected_participants = pd.read_csv(file_path)
 expected_participants_list = set(expected_participants['Official Name'])
 expected_participants_dict = dict(zip(expected_participants['Name (Original Name)'], 
                                       expected_participants['Official Name']))
