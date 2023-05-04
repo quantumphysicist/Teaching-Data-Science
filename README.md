@@ -4,9 +4,6 @@ Please also see the [Supplementary Material for my YouTube Videos](https://githu
 
 ## File Descriptions <a name="files"></a>
 
-`Accessing Data Via APIs\Using Openweathermap.org API.ipynb`  
-A demonstration of how to access the [openweathermap.org](http://www.openweathermap.org) API using Python.
-
 `Attendance Tracker — MS Teams`
 
 This is an Attendance Tracker Python script that processes MS Teams attendance data by comparing expected and actual participants. To use it, replace the Teams report with your own and create an expected_participants.csv file with the names of expected participants. Running the script generates a CSV file named attendance.csv with attendance information.
@@ -32,6 +29,9 @@ A confusion matrix is displayed.
 
 `Natural Language Processing\CountVectorizer & TF-IDFVectorizer.ipynb`  
 NLP from first principles.
+
+`Using APIs to Access Data\Using Openweathermap.org API.ipynb`  
+A demonstration of how to access the [openweathermap.org](http://www.openweathermap.org) API using Python.
 
 `Writing High-Quality Code\Writing High-Quality Code.ipynb`  
 An example of how to convert "ugly code" to "beautiful code". 
