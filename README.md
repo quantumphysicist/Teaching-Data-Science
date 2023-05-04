@@ -5,7 +5,7 @@ Please also see the [Supplementary Material for my YouTube Videos](https://githu
 ## File Descriptions <a name="files"></a>
 
 `Accessing Data Via APIs\Accessing Openweathermap.org.ipynb`  
-A demonstration of how to access the [openweathermap.org](openweathermap.org) API using Python.
+A demonstration of how to access the [openweathermap.org](http://www.openweathermap.org) API using Python.
 
 `Attendance Tracker — Zoom`
 
