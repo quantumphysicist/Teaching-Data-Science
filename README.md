@@ -4,6 +4,17 @@ Please also see the [Supplementary Material for my YouTube Videos](https://githu
 
 ## File Descriptions <a name="files"></a>
 
+`Accessing Data Via APIs\Accessing Openweathermap.org.ipynb`
+A demonstration of how to access the openweathermap.org API using Python.
+
+`Attendance Tracker — Zoom`
+
+This is an Attendance Tracker Python script that processes Zoom attendance data by comparing expected and actual participants. To use it, export the participants list from Zoom and create a CSV file with expected participants' names and run the script to generate an attendance.csv file with attendees' status.
+
+`Attendance Tracker — Teams`
+
+This is an Attendance Tracker Python script that processes MS Teams attendance data by comparing expected and actual participants. To use it, replace the Teams report with your own and create an expected_participants.csv file with the names of expected participants. Running the script generates a CSV file named attendance.csv with attendance information.
+
 `Logistic Regression\Logistic_Regression_Tumours_Dummy_Data.ipynb`     
 This notebook uses the Logistic Regression algorithm to predict the type of tumour (malignant or benign) based on the size of the tumour.
 
@@ -19,10 +30,4 @@ The dataset is a dummy dataset created within the notebook. Percentage noise can
 
 A confusion matrix is displayed.
 
-`Attendance Tracker — Zoom`
 
-This is an Attendance Tracker Python script that processes Zoom attendance data by comparing expected and actual participants. To use it, export the participants list from Zoom and create a CSV file with expected participants' names and run the script to generate an attendance.csv file with attendees' status.
-
-`Attendance Tracker — Teams`
-
-This is an Attendance Tracker Python script that processes MS Teams attendance data by comparing expected and actual participants. To use it, replace the Teams report with your own and create an expected_participants.csv file with the names of expected participants. Running the script generates a CSV file named attendance.csv with attendance information.
