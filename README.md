@@ -30,6 +30,9 @@ The dataset is a dummy dataset created within the notebook. Percentage noise can
 
 A confusion matrix is displayed.
 
+`Natural Language Processing\CountVectorizer & TF-IDFVectorizer.ipynb`  
+NLP from first principles.
+
 `Writing High-Quality Code\Writing High-Quality Code.ipynb`  
 An example of how to convert "ugly code" to "beautiful code". 
 
