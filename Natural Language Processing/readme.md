@@ -55,7 +55,7 @@ print(df)
 ## Understanding TF-IDF Calculation
 TF-IDF values are computed using the formula:
 
-\[ \text{idf}(t) = \log \left(\frac{1 + n}{1 + \text{df}(t)} \right) + 1 \]
+$$\[ \text{idf}(t) = \log \left(\frac{1 + n}{1 + \text{df}(t)} \right) + 1 \]$$
 
 Where:
 - \( n \) = total number of documents
