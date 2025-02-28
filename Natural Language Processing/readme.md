@@ -1,7 +1,7 @@
 # CountVectorizer & TF-IDFVectorizer
 
 ## Overview
-This repository contains a Jupyter Notebook (converted to a Python script) that demonstrates the use of **CountVectorizer** and **TF-IDFVectorizer** from scikit-learn to process textual data. These vectorization techniques are fundamental in Natural Language Processing (NLP) for converting raw text into numerical representations that can be used in machine learning models.
+This repository contains a Jupyter Notebook that demonstrates the use of **CountVectorizer** and **TF-IDFVectorizer** from scikit-learn to process textual data. These vectorization techniques are fundamental in Natural Language Processing (NLP) for converting raw text into numerical representations that can be used in machine learning models.
 
 ## Features
 - **CountVectorizer**: Transforms a collection of text documents into a matrix of token counts.
