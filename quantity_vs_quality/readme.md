@@ -4,7 +4,7 @@
 
 This project demonstrates a simple but important idea in machine learning:
 
-> **All else being equal, more data leads to more reliable estimates.**
+> **All else being equal, more rows of data leads to more reliable estimates.**
 
 We begin with the familiar case of estimating a mean, and then extend this intuition to **simple linear regression**, where we estimate the slope of a relationship between variables.
 
